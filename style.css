@@ -1,0 +1,127 @@
+/*General design*/
+
+body {
+	background-color: #efe6e1;
+	color: #595652;
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.0;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(140, 119, 110);
+	font-family: 'Roboto', sans-serif;
+	font-size: 40;
+	font-weight: 700;
+	letter-spacing: 5;
+}
+
+h2 {
+	color: #0A0A08;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 4;
+}
+
+a {
+	color: #B5A398;
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: color 0.3 ease;
+}
+
+a:hover {
+color: #7c6e66;
+text-decoration: none;
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 1000px;
+	margin: 50px auto;
+}
+
+  @media (max-width: 760px) {
+	  .container{
+		width: 600px;
+	  }
+  }
+
+  @media (max-width: 500px) {
+	  .container{
+		width: 400px;
+	  }
+  }
+
+.card-white {
+	background-color: white;
+	padding: 60px;
+	width: 800px;
+	box-shadow: 0px 8px 35px rgb(10, 10, 10, 0.2);
+	border-radius: 5px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+  @media (max-width: 760px) {
+	  .card-white{
+		width: 600px;
+     }
+  }
+
+  @media (max-width: 500px) {
+	  .card-white{
+		width: 400px;
+    }
+  }
+
+.img-circle {
+	width: 175px;
+	border-radius: 50%;
+}
+
+.btn-brown {
+	background-color: #B5A398;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.btn-brown:hover {
+	background-color: #7c6e66;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+
+/*ID adjusments*/
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
+#introduction h1 {
+	margin-bottom: 40px;
+}
